@@ -72,7 +72,7 @@ for s=1:length(Dataset{D})
       tmp = [dvaprev,resp_bias,resp_biasAV];
       biaseall = cat(1,biaseall,tmp);
     end
-  end
+  end 
   
   % estimate slopes against each predictor
   model = biaseall(:,[1]);
